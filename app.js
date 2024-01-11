@@ -26,7 +26,7 @@ const ispValue = document.querySelector(".valueIsp");
 
 function getInputValue(){
     let ipInput = document.querySelector("#ipaddress").value;
-    const key = 'at_0iDoj4504blzc9hchqt0E6ogRuCgC';
+    const key = 'at_IRPuktz0fThlWVX2nuTR9B4mTvy21';
     const url = 'https://geo.ipify.org/api/v1?apiKey='+key+'&ipAddress=';
 
     urlUpdated = url + ipInput
